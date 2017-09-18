@@ -17,4 +17,5 @@ var app = new App();
 app.nome = "Gabriel";
 validators['n'] = app;
 console.log(validators['n']);
+//impressão => App { nome: 'Gabriel' } 
 //# sourceMappingURL=App.js.map
