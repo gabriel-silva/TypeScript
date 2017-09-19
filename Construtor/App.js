@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 //construtor no TypeScript será declarado pelo método construct e não pelo o nome da class.
 var App = /** @class */ (function () {
     //construtor no TypeScript
@@ -37,7 +35,6 @@ var App = /** @class */ (function () {
     });
     return App;
 }());
-exports.App = App;
 var c = new App("Gabriel", 23);
 console.log(c);
 //# sourceMappingURL=App.js.map

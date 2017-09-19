@@ -1,4 +1,4 @@
-export class App{
+class App{
 
     fn(){
         console.log("Olá Mundo!");

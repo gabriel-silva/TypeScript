@@ -1,8 +1,8 @@
-export class App{
+class App{
     public nome: string;
 }
 
-export class StringValidator{
+class StringValidator{
     public nome: string;
 }
 

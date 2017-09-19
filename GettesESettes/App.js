@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 //Gettes e Settes sempre será declarado pelo método set e get, e não pelo nome da função(Método) como outras linguagens.
 var Pessoa = /** @class */ (function () {
     function Pessoa() {
@@ -34,7 +32,6 @@ var Pessoa = /** @class */ (function () {
     });
     return Pessoa;
 }());
-exports.Pessoa = Pessoa;
 var p = new Pessoa();
 p.setNome = "Gabriel";
 p.setIdade = 23;

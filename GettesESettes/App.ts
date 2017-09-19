@@ -1,5 +1,5 @@
 //Gettes e Settes sempre será declarado pelo método set e get, e não pelo nome da função(Método) como outras linguagens.
-export class Pessoa{
+class Pessoa{
     private nome: string;
     private idade: number;
 

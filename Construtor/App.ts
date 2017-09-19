@@ -1,5 +1,5 @@
 //construtor no TypeScript será declarado pelo método construct e não pelo o nome da class.
-export class App{
+class App{
     private nome: string;
     private idade: number;
 
