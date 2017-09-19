@@ -1,6 +1,7 @@
 //foreach sem indice
 var arr = ["Gabriel", "Rafael"];
-for (var nome in arr) {
+for (var _i = 0, arr_1 = arr; _i < arr_1.length; _i++) {
+    var nome = arr_1[_i];
     console.log(nome);
 }
 //OBS: colocando o "of" ele irá imprimir os valores de cada índice, colocando "in" ele irá imprimir os índices.
